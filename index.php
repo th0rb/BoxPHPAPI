@@ -71,7 +71,7 @@
 							<h3>Usage</h3>
 						</div>
 						<pre class="prettyprint linenums">
-<?php
+&lt;?php
 						
 	include('library/BoxAPI.class.php');
 
@@ -124,7 +124,7 @@
 	$details['name'] = 'NEW FILE NAME';
 	$details['description'] = 'NEW DESCRIPTION FOR THE FILE';
 	$box->update_file('FILE ID', $details);
-?>
+?&gt;
                         </pre>
 					</div>
 				</div>
