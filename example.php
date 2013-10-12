@@ -19,7 +19,7 @@
 	}
 	
 	// User details
-	$box->get_user());
+	$box->get_user();
 	
 	// Get folder details
 	$box->get_folder_details('FOLDER ID'));
