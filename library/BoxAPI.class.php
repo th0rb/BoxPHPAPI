@@ -32,7 +32,8 @@
 				$this->refresh_token = $_REQUEST['refresh_token'];
 			} else {
 				echo $url = $this->authorize_url . '?' . http_build_query(array('response_type' => 'code', 'client_id' => $this->client_id, 'redirect_uri' => $this->redirect_uri));
-				header('location: ' . $url);
+				header('Location: ' . $url);
+				exit();
 			}
 		}
 		
